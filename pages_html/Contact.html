@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contactez-moi</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Contactez-moi</h1>
+      <nav>
+        <a href="index.html"
+          ><i class="fa-solid fa-house"></i><span>Accueil</span></a
+        >
+        <a href="parcours.html"
+          ><i class="fa-solid fa-graduation-cap"></i
+          ><span>Parcours académique</span></a
+        >
+        <a href="competences.html"
+          ><i class="fa-solid fa-laptop-code"></i><span>Compétences</span></a
+        >
+        <a href="experiences.html"
+          ><i class="fa-solid fa-briefcase"></i
+          ><span>Stages & expériences</span></a
+        >
+        <a href="matieres.html"
+          ><i class="fa-solid fa-folder-open"></i
+          ><span>Matières & Projets</span></a
+        >
+        <a href="passions.html"
+          ><i class="fa-solid fa-heart"></i><span>Passions & Qualités</span></a
+        >
+        <a href="quizz.html">
+          <i class="fa-solid fa-circle-question"></i>
+          <span>Quiz</span>
+        </a>
+        <a id="menu_actuel" href="contact.html"
+          ><i class="fa-solid fa-envelope"></i><span>Contactez-moi</span></a
+        >
+        <a href="temoignage.html"
+          ><i class="fa-solid fa-comment-dots"></i
+          ><span>Témoignage sur IIT</span></a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Formulaire de contact</h2>
+        <form
+          action="mailto:mouhac116@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <table class="contact-table">
+            <tr>
+              <td><label for="name">Nom :</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Votre nom"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="subject">Sujet :</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Objet du message"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="message">Message :</label></td>
+              <td>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Écrivez votre message ici..."
+                  required
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button type="submit">Envoyer</button></td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2026 Hachicha Mouna <br />
+        Étudiante en informatique IIT
+      </p>
+    </footer>
+  </body>
+</html>

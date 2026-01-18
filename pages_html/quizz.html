@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Quiz</h1>
+      <nav>
+        <a href="index.html">
+          <i class="fa-solid fa-house"></i>
+          <span>Accueil</span>
+        </a>
+        <a href="parcours.html">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>Parcours académique</span>
+        </a>
+        <a href="competences.html">
+          <i class="fa-solid fa-laptop-code"></i>
+          <span>Compétences</span>
+        </a>
+        <a href="experiences.html">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Stages & expériences</span>
+        </a>
+        <a href="matieres.html">
+          <i class="fa-solid fa-folder-open"></i>
+          <span>Matières & Projets</span>
+        </a>
+        <a href="passions.html">
+          <i class="fa-solid fa-heart"></i>
+          <span>Passions & Qualités</span>
+        </a>
+        <a id="menu_actuel" href="quizz.html">
+          <i class="fa-solid fa-circle-question"></i>
+          <span>Quiz</span>
+        </a>
+        <a href="contact.html">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contactez-moi</span>
+        </a>
+        <a href="temoignage.html">
+          <i class="fa-solid fa-comment-dots"></i>
+          <span>Témoignage sur IIT</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Quiz sur le développement web</h2>
+
+      <form id="quizForm">
+        <p>1. HTML signifie :</p>
+        <input type="radio" name="q1" value="a" /> HyperText Markup Language<br />
+        <input type="radio" name="q1" value="b" /> HighText Machine Language<br />
+        <input type="radio" name="q1" value="c" /> HyperTool Multi Language<br />
+
+        <p>2. CSS sert à :</p>
+        <input type="radio" name="q2" value="a" /> Créer des bases de données<br />
+        <input type="radio" name="q2" value="b" /> Styliser les pages web<br />
+        <input type="radio" name="q2" value="c" /> Programmer le serveur<br />
+
+        <p>3. JavaScript est :</p>
+        <input type="radio" name="q3" value="a" /> Un langage de
+        programmation<br />
+        <input type="radio" name="q3" value="b" /> Un système d’exploitation<br />
+        <input type="radio" name="q3" value="c" /> Un navigateur<br />
+
+        <p>4. Quelle balise crée un lien ?</p>
+        <input type="radio" name="q4" value="a" /> &lt;link&gt;<br />
+        <input type="radio" name="q4" value="b" /> &lt;a&gt;<br />
+        <input type="radio" name="q4" value="c" /> &lt;href&gt;<br />
+
+        <p>5. Quelle balise pour une image ?</p>
+        <input type="radio" name="q5" value="a" /> &lt;img&gt;<br />
+        <input type="radio" name="q5" value="b" /> &lt;image&gt;<br />
+        <input type="radio" name="q5" value="c" /> &lt;pic&gt;<br />
+
+        <p>6. CSS signifie :</p>
+        <input type="radio" name="q6" value="a" /> Creative Style Sheets<br />
+        <input type="radio" name="q6" value="b" /> Cascading Style Sheets<br />
+        <input type="radio" name="q6" value="c" /> Computer Style Sheets<br />
+
+        <p>7. JavaScript s’exécute :</p>
+        <input type="radio" name="q7" value="a" /> Sur le serveur seulement<br />
+        <input type="radio" name="q7" value="b" /> Dans le navigateur<br />
+        <input type="radio" name="q7" value="c" /> Dans la base de données<br />
+
+        <p>8. Quelle extension pour un fichier HTML ?</p>
+        <input type="radio" name="q8" value="a" /> .css<br />
+        <input type="radio" name="q8" value="b" /> .html<br />
+        <input type="radio" name="q8" value="c" /> .js<br />
+
+        <p>9. Quelle balise pour un titre principal ?</p>
+        <input type="radio" name="q9" value="a" /> &lt;p&gt;<br />
+        <input type="radio" name="q9" value="b" /> &lt;h1&gt;<br />
+        <input type="radio" name="q9" value="c" /> &lt;title&gt;<br />
+
+        <p>10. Quel langage est utilisé pour le style ?</p>
+        <input type="radio" name="q10" value="a" /> HTML<br />
+        <input type="radio" name="q10" value="b" /> JavaScript<br />
+        <input type="radio" name="q10" value="c" /> CSS<br />
+
+        <br />
+        <button type="button" onclick="corrigerQuiz(this.form)">Valider</button>
+      </form>
+
+      <h2>Résultats</h2>
+      <textarea id="resultatQuiz" rows="15" cols="50" readonly></textarea>
+    </main>
+
+    <footer>
+      <p>
+        © 2026 Hachicha Mouna <br />
+        Étudiante en informatique IIT
+      </p>
+    </footer>
+
+    <script src="../js/quiz.js"></script>
+  </body>
+</html>

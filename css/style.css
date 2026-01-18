@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #4a2c3a;
+    background-color: #fdecef;
+}
+
+header {
+    margin: 15px;
+    background-color: #f4b6c2;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #5a1f33;
+}
+
+nav {
+    text-align: center;
+}
+
+span {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a1f33;
+    display: inline-block;
+    padding: 12px 18px;
+    margin: 6px;
+    border-radius: 14px;
+    background-color: #f9d5dc;
+}
+
+nav a:hover {
+    background-color: #f2a7b8;
+}
+
+#menu_actuel {
+    background-color: #b64d72;
+    color: white;
+}
+
+main {
+    margin: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    font-family: 'Times New Roman', serif;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #b03a63;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 20px;
+    color: #d45c84;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+section p {
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#lien-iit {
+    color: #b03a63;
+    text-decoration: none;
+}
+
+#lien-iit:hover {
+    text-decoration: underline;
+}
+
+.icons {
+  font-size: 28px;
+  color: #b03a63;
+  text-decoration: none;
+}
+
+footer {
+    margin: 15px;
+    background-color: #f4b6c2;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+footer p {
+    text-align: left;
+    font-size: 16px;
+    color: #5a1f33;
+}
+
+.competences-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.competences-table th, .competences-table td {
+    border: 1px solid #f4b6c2;
+    padding: 10px;
+    text-align: left;
+}
+
+.competences-table th {
+    background-color: #f9d5dc;
+    color: #5a1f33;
+}
+
+.competences-table img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
+    margin-left: 7px;
+}
+
+.contact-table {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact-table td {
+    padding: 8px;
+    font-weight: bold;
+}
+
+.contact-table td label{
+    color: #b03a63;
+}
+
+.contact-table input,
+.contact-table textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b64d72;
+    border-radius: 5px;
+    background-color: #fdecef;
+    padding: 8px;
+}
+
+.contact-table button, #quizForm button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b64d72;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-table button:hover, #quizForm button:hover {
+    background-color: #9c3a5a;
+}
+
+.stage-list li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.stage-list li strong {
+    color: #b03a63;
+}
+
+.stage-list li a {
+    color: #b03a63;
+    text-decoration: none;
+}
+
+.stage-list li a:hover {
+    text-decoration: underline;
+}
+
+.matiere-list li {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+p + strong {
+    color: #b03a63;
+    margin-left: 40px;
+}
+
+#logo{
+    margin-left: 60px;
+}
+
+.img-passion{
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#quizForm {
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 40px;
+}
+
+#quizForm p {
+    font-weight: bold;
+    color: #b03a63;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+}
+
+#quizForm input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+#resultatQuiz {
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #f4b6c2;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: #000000;
+}
